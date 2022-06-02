@@ -1,0 +1,60 @@
+.header_h1{
+    color:#5b2993;
+    font-size: 28px !important;
+    
+}
+.header_para{
+    color:black;
+    text-transform: capitalize;
+font-size: 18px !important;
+  
+}
+
+.moons{
+    font-size :25px;
+background-color:gray;
+    border-radius: 8px;
+    border:1px solid #5b2993;
+    padding:5px;
+    box-shadow: rgb(21, 34, 46) 3px 3px 6px 0px inset, rgba(166, 62, 214, 0.5) -3px -3px 6px 1px inset;
+position: relative;
+top: 25px;
+right: 15px;
+}
+
+.header_hr{
+
+   
+    height: 1px;
+    border-bottom: 1px solid #5b2993;
+    /* margin-left: 75px;
+    margin-right: 15px; */
+
+
+}
+
+
+
+.header_full{
+
+display:flex;
+
+justify-content:space-between;
+
+
+}
+@media (min-width: 768px) {
+    .header_h1{
+        color:#5b2993;
+        
+        font-size: 14px;
+    }
+    .header_para{
+        color:black;
+        text-transform: capitalize;
+    
+        font-size: 12px;
+    }
+    
+
+}

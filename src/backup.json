@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "name": "JavaScript",
+    "frameworks": [
+      "React js",
+      "Angular js",
+      "Vue js",
+      "Node js",
+      "Express js",
+      "Next js",
+      "Ember",
+      "Backbone js"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Java",
+    "frameworks": [
+      "Spring",
+      "Hiberbate",
+      "Play",
+      "Dropwizard",
+      "Vaadin",
+      "Blade",
+      "Grails",
+      "Spark"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Python",
+    "frameworks": [
+      "Django",
+      "Flask",
+      "CherryPy",
+      "Bottle",
+      "Web2py",
+      "TurboGears"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "PHP",
+    "frameworks": [
+      "Laravel",
+      "Codeigniter",
+      "Symfony",
+      "Yii",
+      "Phalcon",
+      "Laminas"
+    ]
+  }
+]

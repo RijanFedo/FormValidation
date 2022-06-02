@@ -1,0 +1,70 @@
+.input-val {
+  width: 378px;
+  height: 46px;
+  text-transform: capitalize;
+  background-color: rgba(221, 185, 255, 0.582);
+  border-radius: 12px;
+  color: black;
+  border-color: #5b2993;
+  margin: 15px;
+}
+.person_title {
+  margin: 15px;
+}
+.text-danger {
+  margin: 0;
+  padding: 0;
+}
+/* .person1{ 
+    padding-top:2vh;
+} */
+.person_h3 {
+  padding: 17px 0px 0px 15px;
+}
+.person_para {
+  padding: 0px 0px 0px 15px;
+}
+.person_label {
+  padding: 0px 0px 0px 15px;
+}
+.person1 {
+  padding-top: 5vh;
+}
+
+.Alert {
+  color: red;
+  font-weight: bold;
+  position: relative;
+  top: 16px;
+  left: 18px;
+  animation: mymove 1s 1;
+}
+@media only screen and (max-width: 768px) {
+  .input-val {
+    width: 280px;
+    height: 38px;
+    text-transform: capitalize;
+    background-color: rgba(221, 185, 255, 0.582);
+    border-radius: 12px;
+    color: black;
+    border-color: #5b2993;
+    position: relative;
+    margin: unset;
+  }
+
+  .t-btn {
+    color: white;
+    background-color: #5b2993;
+    /* position: relative; */
+    top: 0px !important ;
+    left: 18px;
+    padding: 3px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 85px;
+  }
+  .person1 {
+    position: relative;
+    left: -10px;
+  }
+}

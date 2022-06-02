@@ -1,0 +1,65 @@
+.prof-head{ 
+    color: blueviolet;
+}
+.prof-para{ 
+    color: rgb(173, 89, 252);
+}
+.icon{ 
+    color: blueviolet;
+    font-size: 80px;
+    padding:15px;
+    animation: zoom-in-zoom-out 1s ease infinite;
+   
+}
+.bottom-para{
+
+
+
+padding-top:9px;
+margin: 0;
+
+}
+.nxt{
+  color:white;
+  background-color:#5b2993;
+  position: relative;
+  top:25px;
+  left:12px;
+  width:auto;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.prof{
+
+padding-top:5vh;
+
+
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    
+    .prof{
+
+      position: relative;
+      text-align:center;
+    }
+    .bottom-para{
+      font-size: 13px;
+    }
+    .nxt{
+      left: 0px;
+      
+    }
+  }

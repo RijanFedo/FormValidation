@@ -1,0 +1,88 @@
+.controller{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    margin-left: 10%;
+     */
+   
+     display:grid;
+     gap: 15px;
+     grid-template-columns: 45% 5% 50%  ;
+
+     /* grid-template-rows: 1fr 1fr 1fr; */
+    
+    
+   
+}
+.controller-card{
+    /* display: flex; */
+ 
+    width: 100%;
+    gap: 15px;
+    justify-content:space-between;
+  
+}
+.controller-center{
+    /* display: flex; */
+
+/* position: relative; */
+top: 98px;
+
+
+}
+
+.center-bar{
+/*   
+    background-color:#5b2993;
+ width:2px; */
+ 
+
+   
+}
+.controller-render{
+
+    width: unset;
+   
+
+   
+   }
+
+
+
+
+.empty{
+ width: 100%;
+min-height: 21.9vh;
+ 
+
+}
+@media  (max-width: 768px){
+
+
+    .controller{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        /* overflow-x: hidden; */
+       margin-left:unset;
+        position: relative;
+    
+        flex-direction: column;
+        
+       
+    }
+
+    .controller-render{
+
+        width: unset;
+       
+    
+       
+       }
+
+
+    
+}
